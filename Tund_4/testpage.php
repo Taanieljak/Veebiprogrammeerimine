@@ -7,7 +7,7 @@
   if ($hourNow >=17) {
 	  $partOfDay = "õhtu";
   }
-  else ($partOfDay);
+  else ($partOfDay)
 ?>
 <!DOCTYPE html>
 <html lang="et">

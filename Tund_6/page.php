@@ -27,13 +27,13 @@
 	$partOfDay = "varane hommik";
   }
   if($hourNow >= 8 and $hourNow < 16){
-		$partOfDay = "Sobiv aeg akadeemiliseks aktiivsuseks.";
+		$partOfDay = "Kooliaeg.";
 	}
 	if($hourNow >= 16 and $hourNow < 22){
-		$partOfDay = "Vaba aeg.";
+		$partOfDay = "Õhtupoolik.";
 	}
 	if($hourNow > 22){
-		$partOfDay = "Uneaeg.";
+		$partOfDay = "ÖÖ.";
 	}
 	
 	//info semestri kulgemise kohta
@@ -108,7 +108,7 @@
 	  }
 	
 	
-	require("header.php");
+	//require("header.php");
 ?>
 
 

@@ -48,7 +48,7 @@
 		  $stmt->fetch();
 		  $notice = "Sisse logis " .$firstnameFromDb ." " .$lastnameFromDb ."!";
 		  //salvestame kasutaja nime sessioonimuutujatesse
-		  $_SESSION["userID"] = $idFromDb;
+		  $_SESSION["userId"] = $idFromDb;
 		  $_SESSION["userFirstname"] = $firstnameFromDb;
 		  $_SESSION["userLastname"] = $lastnameFromDb;
 		  
